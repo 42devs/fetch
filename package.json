@@ -8,7 +8,7 @@
   "description": "A native node fetch wrapper",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "engines": {
     "node": "18"
@@ -36,6 +36,7 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@cspell/dict-es-es": "^2.3.0",
+    "@jest/globals": "^29.7.0",
     "@stryker-mutator/core": "^7.3.0",
     "@stryker-mutator/jest-runner": "^7.3.0",
     "@types/jest": "^29.5.10",

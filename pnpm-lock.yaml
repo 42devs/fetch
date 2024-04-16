@@ -14,6 +14,9 @@ devDependencies:
   '@cspell/dict-es-es':
     specifier: ^2.3.0
     version: 2.3.0
+  '@jest/globals':
+    specifier: ^29.7.0
+    version: 29.7.0
   '@stryker-mutator/core':
     specifier: ^7.3.0
     version: 7.3.0
