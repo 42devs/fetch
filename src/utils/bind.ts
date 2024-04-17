@@ -1,5 +1,5 @@
 export const bind = (fn: Function, thisArg: any) => {
-  return function wrap() {
-    return fn.apply(thisArg, arguments);
+  return function wrap(...args: any[]) {
+    return fn.apply(thisArg, args);
   };
 };
