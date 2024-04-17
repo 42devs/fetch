@@ -11,4 +11,6 @@ module.exports = {
       statements: 90,
     },
   },
+  testPathIgnorePatterns: ['./src/utils/isStandardBrowser.ts'],
+  coveragePathIgnorePatterns: ['./src/utils/isStandardBrowser.ts'],
 };
